@@ -7,4 +7,4 @@ xgettext ../dist/linux/org.fedoraproject.MediaWriter.desktop -o desktop.pot
 itstool -i as-metainfo.its -o appstream.pot ../dist/linux/org.fedoraproject.MediaWriter.appdata.xml.in
 json2po -i ../app/assets/metadata.json -o metadata.pot
 msgcat *.pot > mediawriter.pot
-rm app.pot appstream.pot desktop.pot metadata.pot
+rm app.pot appstream.pot desktop.pot metadata.pot mediawriter.ts
